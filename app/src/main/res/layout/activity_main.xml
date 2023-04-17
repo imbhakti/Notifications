@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/black"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <Button
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnSimpleNotification"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:text="Simple Notification"/>
+
+    <Button
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnInboxStyleNotication"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:text="Index Style Notification"/>
+    <Button
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnActionTextStyleNotification"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:text="Action Text Style Notification"/>
+    <Button
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnBigPictureStyleNotification"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:text="Big Picture Style Notification"/>
+    <Button
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnSnackBarNotification"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:text="Snack Bar Notification"/>
+
+</LinearLayout>
